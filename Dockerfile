@@ -1,6 +1,6 @@
 FROM jrottenberg/ffmpeg:4.1-alpine
-ARG CHANNEL_NAME \
-    CHANNEL_ID
+ARG CHANNEL_NAME
+ARG CHANNEL_ID
 VOLUME ["/record"]
 
 RUN apk add --update \
