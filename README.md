@@ -7,7 +7,8 @@
 
 ### Environment Variable
 
-- CHANNEL_NAME: hichannel channel name
+- CHANNEL_NAME: hichannel channel name, optional
+- CHANNEL_ID: hichannel channel ID, optional
 
 ### Project Structure
 
