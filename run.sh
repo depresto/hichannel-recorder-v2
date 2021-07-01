@@ -1,0 +1,1 @@
+ffmpeg -i $(node ./index.js) "$(date '+%Y%m%d-%H%M%S').mp3"
